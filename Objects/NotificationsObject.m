@@ -2273,7 +2273,7 @@
     [request setHTTPMethod:@"POST"];
     [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
     [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    [request setValue:@"key=AAAAZ-QKMTc:APA91bHtF6911EYJHGJ3_s2TfwRDTPOK5yc3U95Wvl0MenCL0yA50aohcSx2DNbVFTVJLgN6qZ0UoD5nV3-XT3f4yyWMhyCg3wKTsujWauCldYBNYezZRrjfDhIO-7zMvy4jsgyrrFya" forHTTPHeaderField:@"Authorization"];
+    [request setValue:@"key=[SECRET KEY]" forHTTPHeaderField:@"Authorization"];
     [request setHTTPBody:jsonData];
     
     
